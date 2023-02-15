@@ -1,0 +1,81 @@
+[
+    {"car": 
+      {"Meaning": "A road vehicle with four wheels, designed to carry a small number of passengers, and typically propelled by an internal combustion engine or an electric motor"}
+    },
+    
+    {"phone": 
+      {"Meaning": "A device used for communication, either through voice or text, that can be mobile or stationary"}
+    },
+
+    {"computer": 
+      {"Meaning": "A device that can perform a range of operations, including calculations and data storage and retrieval, based on instructions provided by a user or stored in memory"}
+    },
+
+    {"book": 
+      {"Meaning": "A collection of pages bound together containing written or printed material, typically on a particular subject"}
+    },
+
+    {"chair": 
+      {"Meaning": "A piece of furniture designed to accommodate one person, typically consisting of a seat, back, and legs"}
+    },
+
+    {"table": 
+      {"Meaning": "A piece of furniture with a flat top and one or more legs, used as a surface for working at, eating from, or on which to place things"}
+    },
+
+    {"house": 
+      {"Meaning": "A building for human habitation, especially a single-family dwelling"}
+    },
+
+    {"television": 
+    {"Meaning": "A device for displaying moving images and sound that are broadcast or stored on a disk or other medium"}
+    },
+
+    {"pen": 
+      {"Meaning": "A writing instrument with a point from which ink is applied to a surface"}
+    },
+
+    {"keyboard": 
+    {"Meaning": "A set of keys used to input data into a computer or other electronic device"}
+    },
+
+    {"bed": 
+      {"Meaning": "A piece of furniture for sleep or rest, typically consisting of a flat, rectangular frame with a mattress and sometimes a headboard"}
+    },
+
+    {"desk": 
+      {"Meaning": "A piece of furniture with a flat top and one or more drawers, used as a writing surface and for storage"}
+    },
+
+    {"door": 
+      {"Meaning": "A movable barrier used to block off an entrance or exit to a building, room, or vehicle"}
+    },
+
+    {"window": 
+      {"Meaning": "An opening in a wall or roof of a building, typically fitted with glass, that allows light and air to enter and provides a view of the outside"}
+    },
+
+    {"lamp": 
+      {"Meaning": "A device used to produce light, consisting of a bulb that gives off light when it is heated by electricity"}
+    },
+
+    {"clock": 
+      {"Meaning": "A device that measures and displays time"}
+    },
+
+    {"sofa": 
+      {"Meaning": "A long upholstered seat with a back and arms, designed for more than one person to sit on"}
+    },
+
+    {"coat": 
+      {"Meaning": "A piece of clothing made of cloth, typically with long sleeves, worn outdoors to protect the body from the cold"}
+    },
+
+    {"hat": 
+      {"Meaning": "A covering for the head, typically made of cloth and worn for protection against the weather or for fashion"}
+    },
+
+    {"shirt": 
+      {"Meaning": "A piece of clothing for the upper body"}
+    }
+  ]
