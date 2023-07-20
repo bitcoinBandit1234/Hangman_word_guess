@@ -1,5 +1,4 @@
-const Head = ()=>{
-    return(
+const Head = (
         <div style={{
             width:"50px",
             height: "50px",
@@ -12,10 +11,8 @@ const Head = ()=>{
 
         </div>
     )
-}
 
-const Body = ()=>{
-    return(
+const Body = (
         <div style={{
             width:"10px",
             height: "100px",
@@ -26,10 +23,8 @@ const Body = ()=>{
         }}>
         </div>
     )
-}
 
-const Right_Arm = ()=>{
-    return(
+const Right_Arm = (
         <div style={{
             width:"100px",
             height: "10px",
@@ -42,10 +37,9 @@ const Right_Arm = ()=>{
         }}>
         </div>
     )
-}
 
-const Left_Arm = ()=>{
-    return(
+
+const Left_Arm = (
         <div style={{
             width:"100px",
             height: "10px",
@@ -58,10 +52,9 @@ const Left_Arm = ()=>{
         }}>
         </div>
     )
-}
 
-const Right_Leg = ()=>{
-    return(
+
+const Right_Leg = (
         <div style={{
             width:"100px",
             height: "10px",
@@ -74,10 +67,8 @@ const Right_Leg = ()=>{
         }}>
         </div>
     )
-}
 
-const Left_Leg = ()=>{
-    return(
+const Left_Leg = (
         <div style={{
             width:"100px",
             height: "10px",
@@ -90,17 +81,13 @@ const Left_Leg = ()=>{
         }}>
         </div>
     )
-}
 
-export function Drawing(){
+const allBodyParts = [Head, Body, Left_Arm, Right_Arm, Right_Leg, Left_Leg];
+
+export function Drawing(props){
     return(
         <div style={{position: "relative"}}>
-            <Head/>
-            <Body/>
-            <Left_Arm/>
-            <Right_Arm/>
-            <Right_Leg/>
-            <Left_Leg/>
+           {allBodyParts.slice(0, props.totalGuesses)}
             <div style={{height: "10px", width: "250px", background:"black", marginLeft:"120px"}}/>
             <div style={{height: "50px", width: "10px", background:"black", position:"absolute", top:0, right:0}}/>
             <div style={{height: "400px", width: "10px", background:"black", marginLeft:"120px"}}/>
